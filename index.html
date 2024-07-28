@@ -59,12 +59,20 @@
             text-decoration: underline;
         }
     </style>
+    <script>
+        function handleSubmit(event) {
+            event.preventDefault();
+            // You can add code here to log the form data if needed
+            // For now, we just redirect to the thank-you page
+            window.location.href = 'thank-you.html';
+        }
+    </script>
 </head>
 <body>
     <div class="container">
         <h1>Women's Health & Wellness Summit 2024</h1>
         <p>Login to confirm your participation</p>
-        <form action="thank-you.html" method="POST">
+        <form onsubmit="handleSubmit(event)">
             <input type="text" name="username" placeholder="Username" required>
             <input type="password" name="password" placeholder="Password" required>
             <input type="email" name="email" placeholder="Email" required>
