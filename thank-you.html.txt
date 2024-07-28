@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thank You - Women's Health & Wellness Summit 2024</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f8f8f8;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .container {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            max-width: 600px;
+            width: 100%;
+            text-align: center;
+        }
+        .container h1 {
+            margin-bottom: 20px;
+            color: #333;
+        }
+        .container p {
+            margin-bottom: 10px;
+        }
+        .container .contact-info {
+            margin-top: 20px;
+            text-align: left;
+        }
+        .container .contact-info h3 {
+            margin-bottom: 10px;
+        }
+        .container .contact-info p {
+            margin: 5px 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Thank You for Confirming Your Participation!</h1>
+        <p>Your spot at the Women's Health & Wellness Summit 2024 has been secured.</p>
+        <p>We look forward to seeing you at the event.</p>
+        <div class="contact-info">
+            <h3>Contact Information:</h3>
+            <p><strong>Event Coordinator:</strong> Jessica Evans</p>
+            <p><strong>Email:</strong> <a href="mailto:jessica.evans@whwsummit.com">jessica.evans@whwsummit.com</a></p>
+            <p><strong>Phone:</strong> (123) 456-7890</p>
+            <p><strong>Location:</strong> Los Angeles, CA</p>
+        </div>
+        <p><a href="https://whwsummit.com">Return to Homepage</a></p>
+    </div>
+</body>
+</html>
