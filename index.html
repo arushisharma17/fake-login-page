@@ -62,8 +62,10 @@
     <script>
         function handleSubmit(event) {
             event.preventDefault();
-            // You can add code here to log the form data if needed
-            // For now, we just redirect to the thank-you page
+            // Log form data if needed (for demonstration purposes)
+            const formData = new FormData(event.target);
+            console.log('Form data:', Object.fromEntries(formData));
+            // Redirect to the thank-you page
             window.location.href = 'thank-you.html';
         }
     </script>
